@@ -41,4 +41,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t my-ml-app:ci .
+          docker build -t my-ml-app:ci -f CI_CD/Dockerfile CI_CD
