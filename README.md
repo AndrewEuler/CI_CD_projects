@@ -38,4 +38,3 @@ http://localhost:5000
 ```bash
 pytest -q
 ```
-Тест
